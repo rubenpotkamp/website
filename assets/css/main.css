@@ -2470,7 +2470,7 @@ input, select, textarea {
 	}
 
 	label {
-		color: #212931;
+		color: var(--bg);
 	}
 
 	input[type="text"],
@@ -2495,7 +2495,7 @@ input, select, textarea {
 
 		select option {
 			background-color: #ffffff;
-			color: #212931;
+			color: var(--bg);
 		}
 
 	.select-wrapper:before {
@@ -2504,7 +2504,7 @@ input, select, textarea {
 
 	input[type="checkbox"] + label,
 	input[type="radio"] + label {
-		color: #212931;
+		color: var(--bg);
 	}
 
 		input[type="checkbox"] + label:before,
@@ -2514,8 +2514,8 @@ input, select, textarea {
 
 	input[type="checkbox"]:checked + label:before,
 	input[type="radio"]:checked + label:before {
-		background-color: #212931;
-		border-color: #212931;
+		background-color: var(--bg);
+		border-color: var(--bg);
 		color: #ffffff;
 	}
 
@@ -3079,7 +3079,7 @@ input, select, textarea {
 		}
 
 	table th {
-		color: #212931;
+		color: var(--bg);
 	}
 
 	table thead {
@@ -3188,7 +3188,7 @@ input, select, textarea {
 	}
 
 	.pagination a {
-		color: #212931 !important;
+		color: var(--bg) !important;
 	}
 
 		.pagination a:hover {
@@ -3228,7 +3228,7 @@ input, select, textarea {
 			left: 0;
 			width: 100%;
 			height: 100%;
-			background-color: #212931;
+			background-color: var(--bg);
 			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
 			background-size: auto,								auto,														100% auto;
 			background-position: center,								center,														top center;
@@ -4522,7 +4522,7 @@ input, select, textarea {
 		#navPanelToggle.alt {
 			background-color: rgba(255, 255, 255, 0.875);
 			box-shadow: 0 0.125rem 0.75rem 0 rgba(30, 37, 45, 0.25);
-			color: #212931;
+			color: var(--bg);
 		}
 
 			#navPanelToggle.alt:hover {
@@ -4559,7 +4559,7 @@ input, select, textarea {
 		-webkit-overflow-scrolling: touch;
 		background: #ffffff;
 		box-shadow: none;
-		color: #212931;
+		color: var(--bg);
 		height: 100%;
 		max-width: 80%;
 		overflow-y: auto;
@@ -4682,6 +4682,7 @@ input, select, textarea {
 		}
 
 	}
+
 
 
 
