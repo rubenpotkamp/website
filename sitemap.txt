@@ -1,5 +1,5 @@
-rubenpotkamp.nl/index.html
-rubenpotkamp.nl/overmij.html
-rubenpotkamp.nl/instrumenten.html
-rubenpotkamp.nl/bladmuziek.html
-rubenpotkamp.nl/agenda.html
+https://rubenpotkamp.nl/index.html
+https://rubenpotkamp.nl/overmij.html
+https://rubenpotkamp.nl/instrumenten.html
+https://rubenpotkamp.nl/bladmuziek.html
+https://rubenpotkamp.nl/agenda.html
