@@ -137,6 +137,17 @@
 								</ul>
 							</section>
 						</section>
+						<script>
+							function copyToClipboard(text) {
+							    navigator.clipboard.writeText(text)
+							        .then(() => {
+							            alert("Gekopieerd: " + text);
+							        })
+							        .catch(err => {
+							            console.error('Kon niet kopiëren: ', err);
+							        });
+							}
+						</script>
 					</footer>
 					<div id="copyright">
 						<ul><li>&copy; rpotkamp 2026</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
@@ -151,6 +162,7 @@
 			<script src="assets/js/main.js"></script>
 	</body>
 </html>
+
 
 
 
