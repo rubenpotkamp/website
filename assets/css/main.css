@@ -288,7 +288,7 @@ input, select, textarea {
 
 	a {
 		color: #212931;
-		border-bottom-color: rgba(33, 41, 49, 0.5);
+		border-bottom-color: var(--bg1);
 	}
 
 		a:hover {
