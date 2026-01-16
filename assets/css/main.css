@@ -1,5 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
+@import url("colors.css");
 
 /*
 	Massively by HTML5 UP
@@ -99,7 +100,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #1e252d;
+		background-color: var(--bg1);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3258,7 +3259,7 @@ input, select, textarea {
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background: #1e252d;
+			background: var(--bg1);
 			content: '';
 			display: block;
 			height: 100%;
@@ -3374,7 +3375,7 @@ input, select, textarea {
 			#intro .button.primary {
 				background-color: #ffffff;
 				box-shadow: none;
-				color: #1e252d !important;
+				color: var(--bg1) !important;
 			}
 
 				#intro input[type="submit"].primary:hover,
@@ -3726,7 +3727,7 @@ input, select, textarea {
 				}
 
 					#nav ul.links li.active a {
-						color: #1e252d;
+						color: var(--bg1);
 					}
 
 						#nav ul.links li.active a:hover {
