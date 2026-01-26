@@ -1,3 +1,5 @@
 https://rubenpotkamp.nl/index.html
-https://rubenpotkamp.nl/generic.html
-https://rubenpotkamp.nl/elements.html
+https://rubenpotkamp.nl/overmij.html
+https://rubenpotkamp.nl/artikelen/index.html
+https://rubenpotkamp.nl/bladmuziek.html
+https://rubenpotkamp.nl/contact.html
