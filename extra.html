@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <title>Extras</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Jouw normale CSS -->
+  <link rel="stylesheet" href="/assets/css/main.css" />
+  <link rel="stylesheet" href="/assets/css/colors.css" />
+
+  <style>
+    .games-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+    }
+
+    .games-header {
+      margin-bottom: 1.5rem;
+    }
+
+    .games-header h1 {
+      margin-bottom: 0.5rem;
+    }
+
+    .games-frame-wrapper {
+      position: relative;
+      width: 100%;
+      height: 80vh;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid var(--border-color, #333);
+      background: var(--bg-secondary, #111);
+    }
+
+    .games-frame-wrapper iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    .games-note {
+      margin-top: 1rem;
+      font-size: 0.9rem;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+
+  <main class="games-container">
+    <header class="games-header">
+      <h1>Extras</h1>
+      <p>Een kleine verborgen plek op mijn website. Gewoon voor de lol.</p>
+    </header>
+
+    <section class="games-frame-wrapper">
+      <iframe 
+        src="https://rubenpotkamp.github.io/Offline-HTML-Games-Pack/Gams.html"
+        loading="lazy"
+        title="Offline HTML Games">
+      </iframe>
+    </section>
+
+    <p class="games-note">
+      Deze pagina is bedoeld als persoonlijke extra en maakt geen onderdeel uit van mijn professionele portfolio.
+    </p>
+  </main>
+
+</body>
+</html>
